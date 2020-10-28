@@ -1,0 +1,214 @@
+.aboutus{
+    background: #f6f5f6;
+    margin-top:2rem;
+}
+.mission,.vision,.values{
+    min-height:200px;
+    background:white;
+    box-shadow:0px 0px 0px 0px rgba(0,0,0,0.10);
+    padding:0;
+  
+}
+.sideonvision{
+    background-image: url('../assets/b.jpg');
+    background-size: cover;
+}
+.sideonvalues{
+    background-image: url('../assets/onebg1.png');
+    background-size: cover; 
+}
+.sideonmission{
+    background-image: url('../assets/fbg.png');
+    background-size: cover; 
+}
+.contentholder{
+    display: flex;
+}
+.header{
+    background:#282c34;
+    height:200px;
+    width:30%;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content{
+    display: flex;
+    align-items: center;
+}
+.contentvalues{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mission{
+    box-shadow:0px 0px 5px 0px rgba(0,0,0,0.10);
+}
+.vision{
+
+
+}
+.values{
+    box-shadow:0px 0px 5px 0px rgba(0,0,0,0.10);
+    
+}
+
+
+
+.footer
+{
+    width:100%;
+    min-height:500px;
+    height:auto;
+    background-size:cover;
+    background-image: url('../assets/fbg.png');
+}
+.sectiontitle
+{
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    background: black;
+}
+.footerRowI{
+    min-height:200px;
+    height:auto;
+    color:black;
+    background:white;
+    border-top:10px solid white;
+    box-shadow:0px 0px 10px 0px rgba(0,0,0,0.10);
+}
+.footerDivI{
+min-height:300px;
+display:flex;
+height:auto;
+flex-direction:column;
+justify-content: space-around;
+}
+.footerDivI section{
+    display:flex;
+    width:100%;
+    padding:10px;
+    justify-content: space-around;
+    height:auto;
+}
+.footerDivI section div{
+    width:200px;
+    height:80px;
+    box-shadow:0px 0px 10px 0px rgba(0,0,0,0.10);
+}
+.footerDivI section div img{
+    width:100%;
+    height:80px;
+}
+
+.footerRowII{
+    min-height:500px;
+    height:auto;
+    color:black;
+
+}
+
+.footerDivIII{
+    min-height:450px;
+    height:auto;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+   
+}
+.footerDivIII section{
+    width:50%;
+    min-height:100px;
+    height:auto;
+    
+}
+.triangle{
+    display:flex;
+    justify-content: space-around;
+}
+.socialicon{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-left:-4rem;
+}
+.sociallink{
+    color:white;
+    margin-left:4rem;
+    list-style:none;
+    transform:scale(0.9);
+}
+.sociallink:hover{
+    cursor: pointer;
+    color:white;
+    box-shadow:0px 0px 10px 0px rgba(0,0,0,0.10);
+    transform:scale(1.1);
+    
+}
+.footerDivIII section img{
+    width:70px;
+    height:60px;
+}
+.footerDivIV
+{
+    height:40px;
+    text-align: center;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footerDivIV p{
+    font-size:13px;
+    margin-top:3px;
+}
+@media(max-width:900px)
+{
+    .row{
+  padding:10px;
+    }
+    .mission,.vision,.values{
+        padding:10px;
+        box-shadow:0px 0px 10px 0px rgba(0,0,0,0.10);
+    }
+    .contentholder{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        height:auto;
+     
+    }
+    .header{
+        background:#282c34;
+        height:50px;
+        width:100%;
+        color:white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .footerDivIV p{
+        font-size:16px;
+        margin-top:3px;
+    }
+    .footerDivI section{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footerDivI section div{
+        margin-top:12px;
+    }
+
+}
